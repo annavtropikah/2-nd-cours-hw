@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  
+.top {
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 217px;
+    padding-bottom: 32px;
+}
+.slogan {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 481px;
+    padding-bottom: 44px;
+    
+}
+.button {
+    border-radius: 30px;
+    background: #9C0332;
+    border: #9C0332; 
+    height: 48px;
+    width: 234px; 
+    color: #FFF;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.5s;
+    
+    &:hover {
+        border-radius: 30px;
+        background: #EB443F;
+        cursor:url(img/clarity_cursor-hand-line.svg), auto;
+    }
+
+}
+
+.product-box {
+    background: #000915;
+    min-height: 556px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product {
+    display: block;
+    border-radius: 16px;
+    width: 379px;
+    height: 300px;
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
+    &:hover {
+        border: 3px solid #44D2FF;
+        cursor:url(img/clarity_cursor-hand-line.svg), auto;
+    }
+
+    &:nth-child(1) {
+        background:url(img/1.jpg);
+    }
+    &:nth-child(2) {
+        background:url(img/2.png);
+    }
+    &:nth-child(3) {
+        background:url(img/3.png);
+    }
+
+   
+}
+.product-names {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+   }

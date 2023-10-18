@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +64,7 @@ body {
 }
 
 .product-box {
+    box-sizing: border-box;
     background: #000915;
     min-height: 556px;
     display: flex;
@@ -70,8 +72,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 .product {
+    box-sizing: border-box;
     display: block;
     box-sizing: border-box;
     border-radius: 16px;
@@ -108,3 +113,166 @@ body {
     bottom: 32px;
     left: 32px;
    }
+
+.game-box {
+    height: 800px;
+    background: #000915;
+}
+.game__heading {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.game__slogan {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+.game__slogan_center {
+    text-align: center;
+}
+
+.game-logo {
+    max-width: 485px;
+}
+.game-info {
+    max-width: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.game-first {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.game-second {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.game-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-image: url(img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rights {
+    
+    background: #000915;
+    text-align: center;
+    height: 80px;
+    border-top: 1px solid #B8D4FF33 ;
+}
+.rights-text {
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        height: 735px;
+    }
+   
+    .center {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .heading {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .slogan {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .product-box {
+        justify-content: center;
+       
+        
+
+    }
+    .product {
+        margin-bottom: 32px;
+        justify-content: center;
+    }
+
+    .game__heading {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .game__slogan {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .game-box {
+        flex-direction: column-reverse;
+        padding-top: 51px;
+        padding-bottom: 85px;
+    }
+    
+    .game-info {
+        align-items: center;
+    }
+    .game-logo {
+        margin-top: 64px;
+        max-width: 343px;
+    }
+    .game-first {
+        height: 653px;
+    }
+    .game-second {
+        height: 653px;
+    }
+    .game-third {
+        justify-content: start;
+        flex-direction: column;
+    }
+    .rights {
+    
+        border-top: 1px solid #000915 ;
+    }
+}

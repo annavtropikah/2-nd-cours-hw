@@ -1,5 +1,7 @@
 // //Задание 1
-// let a=10;
+// let a = 10;
+// alert(a);
+// a = 20;
 // alert(a);
 
 // //Задание 2
@@ -11,8 +13,8 @@
 // alert(`Имя создателя языка JavaScript: ${jsInventor}`);
 
 // //Задание 4
-// let a=Number(10);
-// let b=Number(2);
+// let a=(10);
+// let b=(2);
 // let abSumm=a+b;
 // let abSub=a-b;
 // let abMulti=a*b;
@@ -41,7 +43,7 @@
 
 // //Задание 8
 
-// let age=(prompt('Сколько вам лет?'));
+// let age=prompt('Сколько вам лет?');
 // alert(age);
 
 // //Задание 9.0

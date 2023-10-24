@@ -13,8 +13,8 @@
 // alert(`Имя создателя языка JavaScript: ${jsInventor}`);
 
 // //Задание 4
-// let a=(10);
-// let b=(2);
+// let a=10;
+// let b=2;
 // let abSumm=a+b;
 // let abSub=a-b;
 // let abMulti=a*b;

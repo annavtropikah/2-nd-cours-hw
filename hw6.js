@@ -125,3 +125,9 @@
 //     }
 // });
 // console.log(filterPositive);
+
+// //ИЛИ
+// const arr = [-1, 0, 5, -10, 56];
+// const filterPositive = arr.filter(i => i < 0);
+
+// console.log(filterPositive);

@@ -77,19 +77,35 @@
 // operation();
 
 // //Задание 7
+
 // function getArea() {
-//     return this.radius ** 2 * 3, 14;
+//     return Math.PI * this.radius ** 2;
 // }
 // function getPerimeter() {
-//     return this.radius * 3, 14 * 2;
+//     return Math.PI * this.radius * 2;
 // }
 
 // let circle1 = {
 //     radius: 6,
-// }
+//     getArea: getArea,
+//     getPerimeter: getPerimeter,
+// };
+
+// circle1.getArea();
+// circle1.getPerimeter();
+
 // let circle2 = {
 //     radius: 7,
+//     getArea: getArea,
+//     getPerimeter: getPerimeter,
+// };
 
-// }
-// console.log(getArea());
-// console.log(getPerimeter());
+// circle2.getArea();
+// circle2.getPerimeter();
+
+
+// console.log(circle1.getArea());
+// console.log(circle1.getPerimeter());
+
+// console.log(circle2.getArea());
+// console.log(circle2.getPerimeter());

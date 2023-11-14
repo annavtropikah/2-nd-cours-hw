@@ -6,19 +6,12 @@
 
 // // Задача 2
 
-// function searchStart() {
-//  const arr= ['Кошка', 'Кит', 'Комар', 'Носорог'];
-//  const str= 'ко';
-//  const arrStr=[];
-//  arr.forEach((el)=>{
-//     if (el.toLowerCase().startsWith(str.toLowerCase())) {
-//         arrStr.push(el);
-//     }
-//  });
-//  return arrStr;
+// function searchStart(arr, str) {
+// return arr.filter((item)=>
+// item.toLowerCase().startsWith(str.toLowerCase()) 
+//  );
 // }
-
-// console.log(searchStart());
+// console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'],'ко'));
 
 
 // // Задача 3
@@ -77,22 +70,15 @@
 // currentDate.setDate(currentDate.getDate()+73);
 // console.log(currentDate);
 
-// Задача 10
+// // Задача 10
 
-// function ruDateTime() {
+// function ruDateTime(date) {
 //     const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
 //     const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
-//     const myDate = new Date();
-//     let ruDateTime = "Дата:" + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + " - это " + days[myDate.getDay()] + "."+
-//     "Время:" + myDate.toLocaleTimeString();
+    
+    
+//     return `Дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${days[date.getDay()]
+//     }\nВремя: ${date.toLocaleTimeString()}`;
 
-//     return ruDateTime;
 // }
-
-// ruDateTime();
-
-// console.log(ruDateTime());
-
-
-
-////Я не понимаю, как передать функции дату из-за конструктора Date, пробовала два дня так и не получилось:(
+// console.log(ruDateTime(new Date()));

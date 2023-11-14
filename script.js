@@ -33,9 +33,9 @@ function rememberWords() {
     let firstInp = prompt('Чему равнялся первый элемент массива?');
     let lastInp = prompt('Чему равнялся последний элемент массива?');
 
-    if (firstInp == array[0].toLowerCase() && lastInp == array[6].toLowerCase()) {
+    if (firstInp == array[0].toLowerCase() && lastInp == array[array.length-1].toLowerCase()) {
         alert('Поздравляем! Это успех!');
-    } else if (firstInp.toLowerCase() == array[0].toLowerCase() || lastInp.toLowerCase() == array[6].toLowerCase()) {
+    } else if (firstInp.toLowerCase() == array[0].toLowerCase() || lastInp.toLowerCase() == array[array.length-1].toLowerCase()) {
         alert('Вы были близки к победе!');
     } else {
         alert('Вы ответили неверно,но в следующий раз все получится! ');
